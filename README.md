@@ -1,6 +1,6 @@
 ```terminal
-git clone ...
-cd ...
+git clone git://github.com/fgrehm/puppet-rbenv-issues.git
+cd puppet-rbenv-issues
 gem install librarian-puppet
 librarian-puppet install
 vagrant up --no-provision
