@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
   config.vm.box_url = "http://goo.gl/8kWkm"
 
   config.vm.provision :puppet do |puppet|
-    puppet.modules_path = "."
+    puppet.module_path = "modules"
     puppet.manifests_path = "."
     puppet.manifest_file  = "site.pp"
   end
