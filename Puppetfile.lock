@@ -1,0 +1,10 @@
+GIT
+  remote: git://github.com/alup/puppet-rbenv.git
+  ref: master
+  sha: e7cb123991a4caed7b69fa9500861724840198df
+  specs:
+    rbenv (1.1.0)
+
+DEPENDENCIES
+  rbenv (>= 0)
+
